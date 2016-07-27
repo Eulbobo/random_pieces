@@ -1,14 +1,16 @@
 # random_pieces
-Random pieces of code that might become handy
+Random pieces of code that might become handy.
+
+Maybe.
 
 
 # FAQ
 
-## Why JDK 7?
-Because i work with a crappy old Eclipse version that doesn't support JDK8 properly
+## Didn't you said earlier that you could loose your job if you switched to JDK8?
+Found a solution where I can have everything !
 
-## Why using a crappy old Eclipse version that doesn't support JDK8 properly?
-Because it's the only version I have that can manage to run and debug other crappy old projects
+## What was it? Updating Eclipse?
+Not only
 
-## Can't you get rid of thoses crappy projects?
-Not without loosing my job unfortunatly 
+## Then what was it?
+Leave me alone now... Please...

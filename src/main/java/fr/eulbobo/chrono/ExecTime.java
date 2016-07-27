@@ -8,13 +8,13 @@ public class ExecTime {
     /** seconds in one minute */
     private static final int SECONDS_IN_ONE_MINUT = 60;
 
-    /** minutes in one hour  */
+    /** minutes in one hour */
     private static final int MINUTS_IN_ONE_HOUR = 60;
 
-    /** millis in one hour  */
+    /** millis in one hour */
     private static final int MILLIS_IN_ONE_MINUT = SECONDS_IN_ONE_MINUT * MILLIS_IN_ONE_SECOND;
 
-    /** millis in one hour  */
+    /** millis in one hour */
     private static final int MILLIS_IN_ONE_HOUR = MINUTS_IN_ONE_HOUR * MILLIS_IN_ONE_MINUT;
 
     /** valeur des secondes */
@@ -31,9 +31,10 @@ public class ExecTime {
 
     /**
      * Default constructor
+     *
      * @param elapsedTime elasped time
      */
-    public ExecTime(final long elapsedTime){
+    public ExecTime(final long elapsedTime) {
         long remainingMillis = elapsedTime;
 
         elapsedHours = remainingMillis / MILLIS_IN_ONE_HOUR;
@@ -53,7 +54,8 @@ public class ExecTime {
      */
     @Override
     public String toString() {
-        return elapsedHours + " Heures| " + elapsedMinuts + " Minutes| " + elapsedSeconds + " Secondes| " + elapsedMillis + " Milisecondes";
+        return elapsedHours + " Heures| " + elapsedMinuts + " Minutes| " + elapsedSeconds + " Secondes| "
+                + elapsedMillis + " Milisecondes";
     }
 
 }
